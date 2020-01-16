@@ -5,8 +5,7 @@ $(document).ready(function(){
     var age = $("input#age").val();
     var dob = $("input#dob").val();
     var color = $("input#favcolor").val();
-    console.log(favcolor);
-    alert("The following information has been submitted");
+    alert("The following information has been submitted\n"+"\n" + name +"\n"+ sex +"\n"+ age +"\n"+ dob +"\n"+ color);
 
     event.preventDefault();
   });
